@@ -7,7 +7,6 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import LoginPage from './pages/LoginPage'
 import AdminDashboard from './pages/Admin/AdminDashboard'
-import AdminLogin from './pages/Admin/AdminLogin'
 import PrivateRoute from './components/Auth/PrivateRoute'
 import { useEffect } from 'react';
 import api from './services/api';
@@ -22,7 +21,6 @@ function App() {
           <Route path="/nike" element={<NikePage />} />
           <Route path="/puma" element={<PumaPage />} />
           <Route path="/reebok" element={<ReebokPage />} />
-          <Route path="/admin/login" element={<AdminLogin />} />
           <Route path="dashboard" element={<AdminDashboard />} />
           <Route path="/login" element={<LoginPage />} />
       <Route path="/admin" element={
