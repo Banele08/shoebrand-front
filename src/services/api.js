@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { store } from '../app/store';
+import { store } from '../app/Store.js';
 import { logout } from '../features/auth/authSlice';
 
 // Create axios instance

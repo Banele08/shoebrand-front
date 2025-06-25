@@ -1,4 +1,4 @@
-import Header from '../components/Header'
+import Header from '../components/Header/Navbar'
 import Footer from '../components/Footer'
 import ProductGrid from '../components/ProductGrid'
 

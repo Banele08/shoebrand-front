@@ -34,3 +34,5 @@ function LoginPage() {
     </form>
   );
 }
+
+export default LoginPage;
