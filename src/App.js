@@ -3,7 +3,7 @@ import Home from './pages/Home'
 import NikePage from './pages/NikePage'
 import PumaPage from './pages/PumaPage'
 import ReebokPage from './pages/ReebokPage'
-import Header from './components/Header'
+import AdminHeader from './components/Header/AdminHeader'
 import Footer from './components/Footer'
 import LoginPage from './pages/LoginPage'
 import BrandUserDashboard from './Dashboard/BrandUserDashboard';
