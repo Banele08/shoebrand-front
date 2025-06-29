@@ -1,5 +1,5 @@
 export default function FeaturedSale({ brand }) {
-  // In a real app, this would come from API
+
   const saleItem = {
     id: 101,
     name: `${brand} Special Edition`,
