@@ -16,7 +16,7 @@ import api from './services/api';
 function App() {
   return (
     <div className="min-h-screen flex flex-col">
-      <Header />
+      <AdminHeader />
       <main className="flex-grow">
         <Routes>
           <Route path="/" element={<Home />} />
