@@ -4,6 +4,7 @@ import axios from 'axios'
 import Navbar from '../components/Header/Navbar'
 import Footer from '../components/Footer'
 import ProductGrid from '../components/ProductGrid'
+import AdminHeader from '../components/Header/AdminHeader'
 
 export default function NikePage() {
   const [products, setProducts] = useState([])
@@ -16,7 +17,7 @@ export default function NikePage() {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <Header />
+      <AdminHeader />
       <main className="flex-grow">
         <ProductGrid brand="Nike" products={products} />
       </main>
