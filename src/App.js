@@ -2,10 +2,12 @@ import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import NikePage from './pages/NikePage'
 import PumaPage from './pages/PumaPage'
-import Reebok from './pages/Reebok'
-// import Header from './components/Header'
+import ReebokPage from './pages/ReebokPage'
+import Header from './components/Header'
 import Footer from './components/Footer'
 import LoginPage from './pages/LoginPage'
+import BrandUserDashboard from './Dashboard/BrandUserDashboard';
+import SuperAdminDashboard from './Dashboard/SuperAdminDashboard';
 import AdminDashboard from './pages/Admin/AdminDashboard'
 import PrivateRoute from './components/Auth/PrivateRoute'
 import { useEffect } from 'react';

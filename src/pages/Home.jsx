@@ -1,3 +1,6 @@
+import React, { useState, useEffect } from 'react'
+import axios from 'axios'
+import Header from '../components/Header'
 import NikeRow from '../components/ShoeRow/NikeRow'
 import PumaRow from '../components/ShoeRow/PumaRow'
 import ReebokRow from '../components/ShoeRow/ReebokRow'

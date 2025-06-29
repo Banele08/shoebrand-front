@@ -1,3 +1,4 @@
+import FeaturedSale from './components/FeaturedSale';
 export default function ProductGrid({ brand, products }) {
   return (
     <div className="container mx-auto px-4 py-8">

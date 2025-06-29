@@ -1,3 +1,6 @@
+import React, { useState, useEffect } from 'react'
+import axios from 'axios'
+
 import Header from '../components/Header/Navbar'
 import Footer from '../components/Footer'
 import ProductGrid from '../components/ProductGrid'
